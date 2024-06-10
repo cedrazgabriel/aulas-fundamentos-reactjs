@@ -2,12 +2,10 @@
   background: var(--gray-800);
   border-radius:8px;
   padding: 2.5rem;
-
+  margin-top: 2rem;
 }
 
-.post + .post { 
-    margin-top:2rem;
-}
+
 
 .content{
     line-height: 1.6;
@@ -117,4 +115,8 @@
 
 .commentForm button[type=submit]:hover {
     background: var(--green);
+}
+
+.commentList {
+    margin-top: 2rem;
 }

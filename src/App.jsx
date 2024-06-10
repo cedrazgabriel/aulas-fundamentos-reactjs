@@ -1,11 +1,7 @@
 import { Post } from "./components/Post"
 import { Header } from "./components/Header"
 import { Sidebar } from "./components/Sidebar"
-
-
 import styles from './App.module.css'
-
-
 import './global.css'
 
 
@@ -19,7 +15,11 @@ import './global.css'
       <Sidebar/>
       <main>
           <Post
-          author="Gabriel Cedraz"
+          author="Gabriel Uhu"
+          content="Uma frase legal"
+          />
+           <Post
+          author="Gabriel Uhu"
           content="Uma frase legal"
           />
       </main>
